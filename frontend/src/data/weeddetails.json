@@ -1,0 +1,63 @@
+{
+  "W_CL_03_Commelina benghalensis": {
+    "name": "Commelina benghalensis",
+    "commonName": "Benghal Dayflower",
+    "details": "Commelina benghalensis is a fast-growing and invasive weed found primarily in moist and disturbed areas. It has creeping stems that root at the nodes and striking bluish-purple flowers. This weed is known for its ability to regenerate from small plant fragments, making mechanical control difficult. It competes aggressively with crops such as maize, cotton, and soybean, often resulting in yield losses. Its ability to survive in a variety of environments makes it a persistent threat in agricultural fields.",
+    "images": [
+        "/images/weeds/commem1.jpg",
+        "/images/weeds/commem2.jpg",
+        "/images/weeds/commem3.jpg"
+    ]
+  },
+  "W_CL_06_Ipomoea aquatic": {
+    "name": "Ipomoea aquatica",
+    "commonName": "Water Spinach",
+    "details": "Also known as Water Spinach or Kangkung, Ipomoea aquatica is an aquatic or semi-aquatic plant commonly cultivated in Southeast Asia. Despite its culinary use, it is considered a noxious weed in some countries because of its rapid growth in water bodies. It forms dense mats that can block waterways, reduce oxygen levels in water, and hinder native aquatic plant growth. It reproduces both sexually and vegetatively, making it hard to eradicate once established.",
+    "images": [
+        "/images/weeds/ip1.jpg",
+        "/images/weeds/ip2.jpg",
+        "/images/weeds/ip3.jpg"
+    ]
+  },
+  "W_CL_07_Marsilea minuta": {
+    "name": "Marsilea minuta",
+    "commonName": "Dwarf Water Clover",
+    "details": "Marsilea minuta is a small, aquatic fern that resembles a four-leaf clover. It thrives in flooded fields, wetlands, and rice paddies. This plant spreads via rhizomes and can quickly cover large areas, outcompeting native aquatic vegetation. Although it plays a minor ecological role in some wetlands, its unchecked growth in rice fields poses a threat to crop productivity and water management systems.",
+    "images": [
+        "/images/weeds/mar1.jpg",
+        "/images/weeds/mar2.jpg",
+        "/images/weeds/mar3.jpeg"
+    ]
+  },
+  "W_CL_09_Paspalum scrobiculatum": {
+    "name": "Paspalum scrobiculatum",
+    "commonName": "Kodo Millet",
+    "details": "Paspalum scrobiculatum is a millet species that is sometimes cultivated for food in parts of India. However, under unmanaged conditions, it can become weedy, especially in fields left fallow. It thrives in poor soils and has a high tolerance for drought, allowing it to persist under harsh environmental conditions. In agricultural systems, it can compete with other crops for nutrients and space.",
+    "images": [
+        "/images/weeds/pas1.jpg",
+        "/images/weeds/pas2.jpeg",
+        "/images/weeds/pas3.jpeg"
+    ]
+  },
+  "W_CL_10_Pteris vittata": {
+    "name": "Pteris vittata",
+    "commonName": "Chinese Brake Fern",
+    "details": "Pteris vittata is a fern known for its remarkable ability to hyperaccumulate arsenic from contaminated soils, making it useful in phytoremediation projects. Native to Asia, it has naturalized in many parts of the world. Although it does not typically behave as a traditional weed, it can colonize disturbed or contaminated sites and may interfere with land use where arsenic pollution is a concern.",
+    "images": [
+        "/images/weeds/per1.jpg",
+        "/images/weeds/per2.jpeg",
+        "/images/weeds/per3.jpg"
+    ]
+  },
+  "W_CL_11_Synedrella nodiflora": {
+    "name": "Synedrella nodiflora",
+    "commonName": "Cinderella Weed",
+    "details": "Synedrella nodiflora is a fast-growing herbaceous plant that invades disturbed areas, roadsides, and open fields. It is characterized by its small yellow flowers and bushy growth. Often seen as a nuisance weed, it can spread aggressively and affect the growth of young crops by competing for sunlight and nutrients. Despite its invasiveness, it has been used in traditional medicine in some cultures.",
+"images": [
+        "/images/weeds/syn1.jpg",
+        "/images/weeds/syn2.jpeg",
+        "/images/weeds/syn3.jpg"
+    ]
+  }
+}
+    

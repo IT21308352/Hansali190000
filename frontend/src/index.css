@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Applies Open Sans globally */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
