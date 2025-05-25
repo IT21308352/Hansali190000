@@ -1,0 +1,157 @@
+{
+  "W_CL_03_Commelina benghalensis": {
+    "Cultural Control": [
+      "Rotate crops with non-hosts such as cereals (e.g., maize, wheat) to disrupt weed lifecycle and reduce seed bank buildup.",
+      "Use dense cover crops like Mucuna pruriens or cowpea to outcompete Commelina seedlings through canopy shading.",
+      "Maintain proper field drainage to limit favorable moist conditions; raised beds are recommended in water-prone areas.",
+      "Adopt stale seedbed technique: pre-irrigate to encourage weed emergence, then destroy seedlings before crop sowing."
+    ],
+    "Mechanical Control": [
+      "Frequent shallow tillage (5\u201310 cm) at 10-day intervals can deplete rootstocks and rhizomes.",
+      "Deep ploughing (20+ cm) during summer exposes underground parts to solar desiccation.",
+      "Manual hand-pulling must remove entire plant including underground stolons and rhizomes to prevent vegetative regrowth.",
+      "Use of mechanical hoes or weeders in row crops is effective in early growth stages."
+    ],
+    "Chemical Control": [
+      "Pre-emergent herbicides: Pendimethalin (1.0\u20131.5 kg a.i./ha), Metolachlor (0.75\u20131.5 kg a.i./ha), and Atrazine (0.5\u20131.0 kg a.i./ha) should be applied within 2 days of sowing.",
+      "Post-emergent systemic herbicides: Glyphosate (1.5\u20132.0 kg a.i./ha) applied at 3\u20135 leaf stage, avoid contact with crops unless using directed spray or shielded application.",
+      "Broadleaf-specific herbicide: 2,4-D (0.5\u20130.75 kg a.i./ha) works best in early stages (4\u20136 leaf), effective on non-woody parts.",
+      "Contact herbicide: Paraquat (0.3\u20130.6 kg a.i./ha) for rapid desiccation in non-selective situations (e.g., fallow land); apply in morning for optimal uptake."
+    ],
+    "Biological Control": [
+      "Fungal biocontrol agent: Colletotrichum gloeosporioides has shown pathogenicity against leaves and stems, leading to wilting and necrosis.",
+      "Research is ongoing on native beetles and insects feeding on underground parts, but none are yet commercially available.",
+      "Field trials with mycoherbicides based on Fusarium spp. show promise but require formulation improvement."
+    ]
+  },
+  "W_CL_06_Ipomoea aquatic": {
+    "Cultural Control": [
+      "Lower field water levels periodically to disrupt aquatic habitat and inhibit growth.",
+      "Cultivate competitive crops such as direct-seeded rice to form early canopy and shade out Ipomoea.",
+      "Practice crop rotation with non-aquatic crops (e.g., maize, millet) to break the lifecycle.",
+      "Adopt proper fertilization to boost crop vigor and suppress weed competition."
+    ],
+    "Mechanical Control": [
+      "Manual removal using gloves or sickles in early stages before rooting intensifies.",
+      "Floating booms and mesh barriers in canals prevent spread via water currents.",
+      "Aquatic weed cutters or small harvesters are suitable for large infestations in water bodies.",
+      "Drainage ditches should be periodically cleared to remove vegetative fragments."
+    ],
+    "Chemical Control": [
+      "Systemic herbicide: Glyphosate (1.5\u20132.5 kg a.i./ha) is effective; apply with surfactant under sunny conditions.",
+      "Pre-emergent: Imazapyr (0.5\u20131.0 kg a.i./ha) applied on moist soil before seedling emergence.",
+      "Aquatic-approved: Fluridone (0.15\u20130.3 kg a.i./ha), applied in still water with exposure of at least 45 days.",
+      "Monitor herbicide drift when spraying near aquatic crops or habitats."
+    ],
+    "Biological Control": [
+      "Herbivorous fish: Grass carp (*Ctenopharyngodon idella*) effectively consume young shoots.",
+      "Pathogens: *Alternaria alternata* shows leaf spot activity, limiting photosynthesis and spread.",
+      "Insects such as stem borers and beetles are under investigation for host specificity.",
+      "Avoid biocontrols in systems with sensitive native aquatic flora."
+    ]
+  },
+  "W_CL_07_Marsilea minuta": {
+    "Cultural Control": [
+      "Flood rice fields at depths >10 cm to suppress Marsilea germination and establishment.",
+      "Rotate with upland crops during dry season to desiccate rhizomes.",
+      "Incorporate green manures and fast-growing crops to outcompete weeds.",
+      "Avoid stagnant water in canals; maintain continuous shallow flow."
+    ],
+    "Mechanical Control": [
+      "Manual weeding before sporocarp formation is crucial to prevent reproduction.",
+      "Floating mechanical harvesters or suction weeders can be used in paddies.",
+      "Drain and till fields post-harvest to expose and kill vegetative structures.",
+      "Use netting to block regrowth in irrigation channels."
+    ],
+    "Chemical Control": [
+      "Selective herbicide: MCPA (0.75\u20131.0 kg a.i./ha) applied at 2\u20134 leaf stage.",
+      "Bispyribac-sodium (0.025\u20130.05 kg a.i./ha) controls young plants effectively; avoid overdosing.",
+      "Oxadiazon (0.5\u20131.0 kg a.i./ha) as pre-emergent in moist soil conditions.",
+      "Use flat-fan nozzles for uniform herbicide coverage."
+    ],
+    "Biological Control": [
+      "Snails such as *Pomacea canaliculata* feed on young fronds in controlled systems.",
+      "Ongoing research: fungal pathogens like *Rhizoctonia solani* may inhibit rhizome spread.",
+      "Avoid introducing biological agents without assessment of ecological risk.",
+      "Mycoherbicides under pilot testing in marshland paddy systems."
+    ]
+  },
+  "W_CL_09_Paspalum scrobiculatum": {
+    "Cultural Control": [
+      "Adopt high-density planting (e.g., 25 plants/m\u00b2) of crops to suppress weed growth.",
+      "Practice intercropping with legumes (e.g., cowpea, black gram) to break monoculture cycle.",
+      "Mulching with rice husk, straw, or black polyethylene prevents light penetration.",
+      "Adjust sowing dates to mismatch weed germination peaks."
+    ],
+    "Mechanical Control": [
+      "Use of rotary tillers or hoes at 2-week intervals during early crop stages.",
+      "Hand weeding 2\u20133 times within the first 45 days is crucial for season-long suppression.",
+      "Burning crop residues post-harvest may destroy dormant seeds on the soil surface.",
+      "Use seed drills that minimize soil disturbance to prevent weed seed germination."
+    ],
+    "Chemical Control": [
+      "Pre-emergent: Pendimethalin (1.0\u20131.5 kg a.i./ha), Oxadiazon (0.75\u20131.0 kg a.i./ha), Atrazine (0.5\u20130.75 kg a.i./ha).",
+      "Post-emergent: Glyphosate (1.5\u20132.0 kg a.i./ha), Clethodim (0.12\u20130.24 kg a.i./ha), Fluazifop-p-butyl (0.2\u20130.4 kg a.i./ha) for selective grass control.",
+      "Application at 3\u20135 leaf stage ensures maximum absorption and control.",
+      "Avoid tank-mixing with incompatible broadleaf herbicides without compatibility testing."
+    ],
+    "Biological Control": [
+      "Use of *Pyricularia grisea* (fungus) to target leaf and stem in warm, humid conditions.",
+      "Grass-feeding insects like *Atherigona spp.* are being evaluated for specificity.",
+      "Inoculate biocontrol agents during early crop stages for maximum effectiveness.",
+      "Ensure quarantine measures to prevent introduction of invasive agents."
+    ]
+  },
+  "W_CL_10_Pteris vittata": {
+    "Cultural Control": [
+      "Soil amendments with calcium carbonate or lime reduce arsenic uptake and limit fern proliferation.",
+      "Fast-growing smother crops like mustard or sunflower can inhibit early fern growth.",
+      "Irrigation regulation and reduced soil moisture disfavor fern spore germination.",
+      "Continuous land cover and minimal soil disturbance prevent spore establishment."
+    ],
+    "Mechanical Control": [
+      "Pull out individual plants prior to spore release; dispose by deep burial.",
+      "Disc ploughing in summer desiccates rhizomes and exposes underground growth.",
+      "Repeated mowing delays development of fertile fronds and spore dispersal.",
+      "Avoid disturbance in arsenic-rich soils where this fern may accumulate toxins."
+    ],
+    "Chemical Control": [
+      "Systemic herbicides: Glyphosate (2.0\u20132.5 kg a.i./ha), Triclopyr (1.0\u20131.5 kg a.i./ha), Metsulfuron-methyl (4\u20136 g a.i./ha).",
+      "Apply in mid-vegetative stage before frond hardening for best efficacy.",
+      "Avoid pre-emergent herbicides due to spore-based reproduction cycle.",
+      "Use surfactants for improved herbicide penetration through waxy cuticle."
+    ],
+    "Biological Control": [
+      "Fungal agent: *Myrothecium verrucaria* causes necrosis in fronds under warm, moist conditions.",
+      "Research underway on endophytic fungi inhibiting root growth.",
+      "Avoid biological agents in arsenic-laden soils unless tolerance is confirmed.",
+      "Integrate with cultural and chemical practices to delay resistance."
+    ]
+  },
+  "W_CL_11_Synedrella nodiflora": {
+    "Cultural Control": [
+      "Grow aggressive crops like maize, pigeon pea, or castor to outcompete weed.",
+      "Avoid bare soil periods\u2014use cover crops or mulch to block germination.",
+      "Deep summer ploughing destroys seed bank and reduces next season infestation.",
+      "Improve field drainage and avoid over-irrigation that favors weed spread."
+    ],
+    "Mechanical Control": [
+      "Mowing before flowering reduces seed spread and weakens regrowth.",
+      "Manual weeding at early rosette stage ensures complete removal.",
+      "Hoeing between crop rows is effective up to 4-leaf stage.",
+      "Sanitize tools to avoid seed transfer between fields."
+    ],
+    "Chemical Control": [
+      "Pre-emergent: Atrazine (0.5\u20130.75 kg a.i./ha), Pendimethalin (1.0\u20131.25 kg a.i./ha), Metolachlor (0.75\u20131.0 kg a.i./ha).",
+      "Post-emergent: Glyphosate (1.5\u20132.0 kg a.i./ha), 2,4-D (0.5\u20130.75 kg a.i./ha), Paraquat (0.3\u20130.6 kg a.i./ha).",
+      "Spray at early growth stages for maximum absorption and minimal regrowth.",
+      "Repeat application may be needed for heavy infestations."
+    ],
+    "Biological Control": [
+      "Ongoing research on native fungal pathogens and insect herbivores.",
+      "Organic mulches (e.g., neem cake, rice husk) suppress germination.",
+      "Soil fungi such as *Trichoderma spp.* may offer antagonism against weed roots.",
+      "No commercial biocontrol available yet; use in integrated strategy."
+    ]
+  }
+}
