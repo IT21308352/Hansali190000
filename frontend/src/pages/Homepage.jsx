@@ -1,29 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, ChevronRight } from 'lucide-react';
 
 const ModernLandingPage = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [showCards, setShowCards] = useState(false);
-  
+  const navigate = useNavigate();
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
 
-    const timer = setTimeout(() => {
-      setShowCards(true);
-    }, 500);
-
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(timer);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const appName = "Rice Genie 🌾";
-  const tagline = "Your AI-powered rice farming companion";
+  // Navigation handlers
+  const navigateTo = (path) => {
+    navigate(path);
+  };
 
   const features = [
     {
@@ -70,10 +66,11 @@ const ModernLandingPage = () => {
             autoPlay
             loop
             muted
+            playsInline
             className="w-full h-full object-cover"
           >
             <source
-              src="https://videos.pexels.com/video-files/13020375/13020375-hd_1920_1080_30fps.mp4"
+              src="https://videos.pexels.com/video-files/3145223/3145223-uhd_2560_1440_30fps.mp4"
               type="video/mp4"
             />
           </video>
@@ -94,12 +91,13 @@ const ModernLandingPage = () => {
               Revolutionize Your <span className="text-emerald-300">Rice Farming</span>
             </h1>
             <p className="text-xl md:text-2xl text-emerald-100 max-w-3xl mx-auto mb-10">
-              {tagline} - powered by deep learning and agricultural expertise
+              Your AI-powered rice farming companion - powered by deep learning and agricultural expertise
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => navigateTo('/input-form')}
                 className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 flex items-center group"
               >
                 Get Started Free
@@ -108,6 +106,7 @@ const ModernLandingPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => window.open('https://youtu.be/Pr-5FjrImMs', '_blank')}
                 className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold hover:bg-white/20 transition-all duration-300 flex items-center border border-white/20"
               >
                 Watch Demo
@@ -157,21 +156,22 @@ const ModernLandingPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2`}
+                whileHover={{ y: -5 }}
+                className={`bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300`}
               >
                 <div className={`h-2 bg-gradient-to-r ${feature.color}`}></div>
                 <div className="p-6">
-                  <div className={`text-4xl mb-4 text-${feature.color.split(' ')[1]}`}>
+                  <div className={`text-4xl mb-4`}>
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{feature.title}</h3>
                   <p className="text-gray-600 mb-6">{feature.description}</p>
-                  <a 
-                    href={feature.link} 
+                  <button
+                    onClick={() => navigateTo(feature.link)}
                     className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium transition-colors"
                   >
                     Learn more <ArrowRight className="ml-2 h-4 w-4" />
-                  </a>
+                  </button>
                 </div>
               </motion.div>
             ))}
@@ -276,6 +276,7 @@ const ModernLandingPage = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => navigateTo('/input-form')}
               className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-green-700 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 text-lg"
             >
               Start Your Free Trial Today
